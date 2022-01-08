@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    min-height: auto;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #080708;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1500ff;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0542fa;
+}
+.navbar{
+    padding: 1rem 3rem !important;
+    background-color: #1a84e8;
+    border: 0px solid black;
+    box-shadow: 0px 0px 67px 8px rgba(120,120,120,0.71);
+    -webkit-box-shadow: 0px 0px 67px 8px rgba(120,120,120,0.71);
+    -moz-box-shadow: 0px 0px 67px 8px rgba(120,120,120,0.71);
+}
+.nav-item a{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight:; 
+    color: white !important;
+    padding: 0 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px !important;
+    
+}
+.navbar-brand{
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif ;
+    padding: 0 30px
+    color: white bold; !important;
+    
+}
+.container{
+    overflow-x: hidden;
+}
+/*.jumbotron {
+    background-image: url(img/.jpg);
+    background-size: cover;
+    height: 630px;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid black;
+    margin-top: px;
+    margin-bottom:  5rem;
+    filter:     
+}*/
+.text p {
+    background-color:  #84e8f5; 
+    font-size: 40px;
+    border: 3px solid black;
+    padding: 0px;
+}
+.fab {
+    color: #112ff0;
+}
+.card {
+    margin-bottom:  100px;
+    margin-left: 26px;
+}
+.card .card-body .btn{
+    text-transform: uppercase;
+}
+.copyright a {
+    text-decoration: none;
+}
+.felix {
+    padding: 40px 0;
+        position: relative;
+}
+.felix .btn {
+    padding: 10px 20px;
+}
+.felix .display-4 {
+    font-size: 40px;
+    color: #3B3B3B;
+} 
+.felix p {
+    font-size: 20px;
+    color: gray;
+}
+.felix .owner {
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+.games h2{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;    
+}
+.fav-music h1{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.bubble3{
+    position: absolute;
+} 
+.bubble2{
+    position: absolute;
+}
+.Bubble{
+    position: absolute;
+}
+.card{
+    position: relative;
+}
+#certifications .row{
+        flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+#certifications {
+    background: linear-gradient(to bottom, #F8FFC0, #FAFDE8);
+}
+#certifications h3{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;  
+    margin-bottom: 50px;
+}
+#certifications img {
+    width: 1000px !important;
+    margin-bottom: 5rem;
+}
+#certifications h4 {
+    margin-left: 0;
+} 
+iframe{
+
+}
+/* Desktop Version */
+@media (min-width: 1000px) {
+    .certifications h4 {
+        margin-left: 21%;
+    }
+    .certifications img {
+         position: relative;
+    }
+}
+.felix {
+    font-family: 'Montserrat', sans-serif;
+}
