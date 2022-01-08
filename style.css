@@ -111,6 +111,9 @@ body {
 .fav-music h1{
     font-family: 'Montserrat', sans-serif !important;
 }
+#fav-music .row{
+    padding: 0 6rem;
+}
 .bubble3{
     position: absolute;
 } 
