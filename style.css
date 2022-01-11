@@ -5,6 +5,7 @@
 }
 body {
     min-height: auto;
+    overflow: overlay;
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -12,14 +13,12 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #080708;
   border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #1500ff;
-  border-radius: 20px;
 }
 
 /* Handle on hover */
@@ -27,7 +26,7 @@ body {
   background: #0542fa;
 }
 .navbar{
-    padding: 1rem 3rem !important;
+    padding: 0;
     background-color: #1a84e8;
     border: 0px solid black;
     box-shadow: 0px 0px 67px 8px rgba(120,120,120,0.71);
@@ -48,12 +47,14 @@ body {
 .navbar-brand{
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif ;
-    padding: 0 30px
     color: white bold; !important;
     
 }
 .container{
     overflow-x: hidden;
+}
+.jumbotron{
+    margin-top: 5%;
 }
 /*.jumbotron {
     background-image: url(img/.jpg);
@@ -111,9 +112,6 @@ body {
 .fav-music h1{
     font-family: 'Montserrat', sans-serif !important;
 }
-#fav-music .row{
-    padding: 0 6rem;
-}
 .bubble3{
     position: absolute;
 } 
@@ -147,9 +145,10 @@ body {
 }
 #certifications h4 {
     margin-left: 0;
-} 
-iframe{
+}
 
+#contact .contact .col-lg-12{
+    width: 50%;
 }
 /* Desktop Version */
 @media (min-width: 1000px) {
@@ -159,7 +158,28 @@ iframe{
     .certifications img {
          position: relative;
     }
+    #form .col .form{
+        width: 50%;
+    }
+    .navbar{
+        padding: 1rem 3rem !important;
+    }
 }
 .felix {
     font-family: 'Montserrat', sans-serif;
+}
+.message{
+    font size: 20%;
+}
+form .btn-load{
+    border: none;
+    padding: 8px 15px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+form .btn-kirim{
+    background-color: skyblue !important;
+    border: 0px solid black;
+    font-size: 15px;
+    padding: 8px 15px;
 }
