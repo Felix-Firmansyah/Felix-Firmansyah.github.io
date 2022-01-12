@@ -37,3 +37,4 @@ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 $('.js-scroll-trigger').click(function() {
   $('.navbar-collapse').collapse('hide');
 });
+
