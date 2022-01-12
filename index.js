@@ -10,7 +10,7 @@ for (i; i < all_button.length; i++) {
 }
 
 /*==================== FORM FUNCITON ====================*/ 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyrnF-v9mgKQBuVQ4KInPE0ECi5YeNTeNyFH45ysVZy-ZLjYKlPHzB83oCiX6rLy2tUrg/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw-Lnl8csNBBO8-wBsYxIDmlsoaBEYEISmVBb4of1iunb0PJTqFRmu-S_k6HBP-Z5q2nQ/exec'
 const form = document.forms['contact-my-website']
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
