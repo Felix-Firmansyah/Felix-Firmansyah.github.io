@@ -140,7 +140,7 @@ body {
     margin-bottom: 50px;
 }
 #certifications img {
-    width: 1000px !important;
+    width: 900px !important;
     margin-bottom: 5rem;
 }
 #certifications h4 {
@@ -170,6 +170,9 @@ body {
 }
 .message{
     font size: 20%;
+}
+.form-label{
+    margin-bottom: 50px;
 }
 form .btn-load{
     border: none;
