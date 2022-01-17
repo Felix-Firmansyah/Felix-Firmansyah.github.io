@@ -36,7 +36,6 @@ body {
 .nav-item a{
     font-size: 19px;
     font-family: 'Montserrat', sans-serif ;
-    font-weight:; 
     color: white !important;
     padding: 0 20px;
 }
@@ -47,7 +46,7 @@ body {
 .navbar-brand{
     font-size: 20px; 
     font-family: 'Montserrat', sans-serif ;
-    color: white bold; !important;
+    color: white !important;
     
 }
 .container{
@@ -168,9 +167,22 @@ body {
 .felix {
     font-family: 'Montserrat', sans-serif;
 }
-.message{
-    font size: 20%;
+.modal-title{
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center ; 
 }
+.modal-body {
+    font-family: 'Luxurious Roman', cursive;  
+}
+.modal-body span{
+    font-family: 'Luxurious Roman', cursive;  
+    color: green;
+}
+.btn-secondary {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+
 .form-label{
     margin-bottom: 50px;
 }
