@@ -18,12 +18,12 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1500ff;
+  background: #262624;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0542fa;
+  background: #262624;
 }
 .navbar{
     padding: 0;
@@ -106,7 +106,7 @@ body {
 }
 .games h2{
     font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;        
 }
 .fav-music h1{
     font-family: 'Montserrat', sans-serif !important;
@@ -181,8 +181,6 @@ body {
 .btn-secondary {
     font-family: 'Luxurious Roman', cursive;
 }
-
-
 .form-label{
     margin-bottom: 50px;
 }
